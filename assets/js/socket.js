@@ -28,14 +28,14 @@ function setStatus(status) {
 
 document.getElementById(
   "avatar"
-).innerHTML = `<img src="https://api.krokss.com/get_avatar/${user_id}">`;
+).innerHTML = `<img src="http://api.krokss.com/get_avatar/${user_id}">`;
 
-fetch("https://api.krokss.com/get_banner/" + user_id)
+fetch("http://api.krokss.com/get_banner/" + user_id)
   .then((response) => {
     if (response.ok) {
       document.getElementById(
         "banner"
-      ).style.backgroundImage = `url(https://api.krokss.com/get_banner/${user_id})`;
+      ).style.backgroundImage = `url(http://api.krokss.com/get_banner/${user_id})`;
       document.getElementById("banner").style.height = "150px";
     } else {
       document.getElementById("banner").style.height = "100px";
@@ -45,7 +45,7 @@ fetch("https://api.krokss.com/get_banner/" + user_id)
     document.getElementById("banner").style.height = "100px";
   });
 
-fetch("https://api.krokss.com/get_userinfo/" + user_id)
+fetch("http://api.krokss.com/get_userinfo/" + user_id)
   .then((response) => response.json())
   .then((data) => {
     const { global_name, username, custom_status, status } = data;
