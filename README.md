@@ -40,7 +40,7 @@ Clone the repo by running
 ```bash
 git clone https://github.com/kr0kss/discord-card.git
 ```
-### After cloning, fill all requirement in `assests/js/config.js`, then open
+### After cloning, change to your badges and Discord ID in `assests/js/config.js`, then open
 
 ```js
 index.html
