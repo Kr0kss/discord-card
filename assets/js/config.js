@@ -12,3 +12,5 @@ const BADGES = [
 ];
 
 const USER_ID = "473228282293125120"; // Change to your user id
+
+// You need to be in my discord for this to work  ~ https://discord.gg/HDS3ayJTQy
