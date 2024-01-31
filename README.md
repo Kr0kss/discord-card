@@ -26,7 +26,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/kr0kss/discord-card">
-    <img src="https://cdn.discordapp.com/attachments/1200541851552333894/1201639160662990868/image.png">
+    <img src="https://cdn.discordapp.com/attachments/1200541851552333894/1202046925336223774/image.png">
   </a>
 </p>
 
