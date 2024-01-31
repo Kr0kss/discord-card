@@ -45,7 +45,7 @@ fetch("https://api.krokss.com/get_banner/" + user_id)
     document.getElementById("banner").style.height = "100px";
   });
 
-fetch("http://api.krokss.com/get_userinfo/" + user_id)
+fetch("https://api.krokss.com/get_userinfo/" + user_id)
   .then((response) => response.json())
   .then((data) => {
     const { global_name, username, custom_status, status, spotify } = data;
