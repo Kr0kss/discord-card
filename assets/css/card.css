@@ -3,7 +3,7 @@
   background-color: #000000;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 4.0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 4);
 }
 
 #banner {
@@ -122,13 +122,12 @@ hr {
   font-size: 14px;
 }
 
-
 #social {
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 2px 12px 16px;
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 .social-link {
@@ -143,7 +142,7 @@ hr {
 }
 
 .social-link:hover {
-  transform: scale(1.50);
+  transform: scale(1.5);
 }
 
 #icon {
@@ -166,12 +165,73 @@ hr {
 }
 
 .icon:hover {
-  transform: scale(1.50);
+  transform: scale(1.5);
+}
+
+#spotify-status {
+  position: relative;
+  padding-left: 70px;
+}
+
+#spotify-status-container h4 {
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0;
+  padding: 16px;
+}
+
+.live-dot {
+  position: relative;
+  left: 167px;
+  bottom: 27px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ff5252;
+  animation: fadeInOut 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+#album-image img {
+  width: 50px;
+  height: auto;
+  border-radius: 8px;
+  position: absolute;
+  left: 16px;
+  top: 0;
+}
+
+#song-name {
+  margin: 0;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+#artist-name {
+  margin: 0;
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 5px;
 }
 
 @media (max-width: 512px) {
   #card {
     min-width: 100%;
     border-radius: 0;
+  }
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
   }
 }

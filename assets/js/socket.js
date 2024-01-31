@@ -45,14 +45,34 @@ fetch("https://api.krokss.com/get_banner/" + user_id)
     document.getElementById("banner").style.height = "100px";
   });
 
-fetch("https://api.krokss.com/get_userinfo/" + user_id)
+fetch("http://api.krokss.com/get_userinfo/" + user_id)
   .then((response) => response.json())
   .then((data) => {
-    const { global_name, username, custom_status, status } = data;
+    const { global_name, username, custom_status, status, spotify } = data;
     document.getElementById("at_sign").innerText = global_name;
     document.getElementById("nickname").innerText = username;
     document.getElementById("custom_status").innerText = custom_status;
     setStatus(status);
+
+    if (spotify && spotify.song && spotify.artist) {
+      const spotifyInfo = `${spotify.song} - ${spotify.artist}`;
+      document.getElementById("song-name").innerText = spotify.song;
+      document.getElementById("artist-name").innerText = `by ` + spotify.artist;
+
+      if (spotify.album_art) {
+        const albumImage = document.createElement("img");
+        albumImage.src = spotify.album_art;
+        albumImage.alt = "Album Art";
+        document.getElementById("album-image").appendChild(albumImage);
+      }
+      document.getElementById("spotify-status-container").style.display =
+        "block";
+      document.getElementById("spotify-divider").style.display = "block";
+    } else {
+      document.getElementById("spotify-status-container").style.display =
+        "none";
+      document.getElementById("spotify-divider").style.display = "none";
+    }
   })
   .catch((error) =>
     console.error("Erro ao buscar informações do usuário:", error)
