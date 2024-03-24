@@ -47,9 +47,9 @@ index.html
 ```
 
 ## <img src="https://cdn.discordapp.com/emojis/1036083490292244493.png" width="15px" height="15px">》Support Server
-[![DiscordBanner](https://invidget.switchblade.xyz/HDS3ayJTQy)](https://discord.gg/HDS3ayJTQy)
+[![DiscordBanner](https://invidget.switchblade.xyz/e3sHNQChdF)](https://discord.gg/e3sHNQChdF)
 
-[Support Server](https://discord.gg/HDS3ayJTQy) - My Discord Server, feel free to contact me there ~ open a ticket
+[Support Server](https://discord.gg/e3sHNQChdF) - My Discord Server, feel free to contact me there ~ open a ticket
 
 # Donate
 
