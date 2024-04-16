@@ -26,7 +26,7 @@
 <br />
 <p align="center">
   <a href="https://card.krokss.com">
-    <img src="https://cdn.discordapp.com/attachments/1200541851552333894/1202046925336223774/image.png">
+card.krokss.com
   </a>
 </p>
 
