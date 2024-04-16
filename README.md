@@ -22,10 +22,10 @@
 ## <img src="https://cdn.discordapp.com/emojis/859424401186095114.png" width="20px" height="20px">》Description 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kr0kss&repo=discord-card&theme=tokyonight)](https://github.com/kr0kss/discord-card)
 
-## <img src="https://cdn.discordapp.com/emojis/1028680849195020308.png" width="25px" height="25px">》Screenshots
+## <img src="https://cdn.discordapp.com/emojis/1028680849195020308.png" width="25px" height="25px">》Preview
 <br />
 <p align="center">
-  <a href="https://github.com/kr0kss/discord-card">
+  <a href="https://card.krokss.com">
     <img src="https://cdn.discordapp.com/attachments/1200541851552333894/1202046925336223774/image.png">
   </a>
 </p>
