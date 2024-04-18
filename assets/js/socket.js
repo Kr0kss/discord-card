@@ -1,4 +1,4 @@
-// Não mexa se não souber o que está a fazer.
+// Connection with the API. You don't really need to touch this.
 
 const user_id = USER_ID;
 
