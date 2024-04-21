@@ -49,7 +49,10 @@ function fetchAndUpdateUserInfo(user_id) {
   fetch("https://api.krokss.com/get_userinfo/" + user_id)
     .then((response) => response.json())
     .then((data) => {
-      const { global_name, username, custom_status, status, spotify } = data;
+      const { global_name, username } = data.data.user;
+      const { spotify } = data.data;
+      const { custom_status } = data.data.user_profile;
+      const status = data.status; // Ajuste para acessar o status corretamente
       document.getElementById("at_sign").innerText = global_name;
       document.getElementById("nickname").innerText = username;
       document.getElementById("custom_status").innerText = custom_status;
