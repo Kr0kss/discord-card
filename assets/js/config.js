@@ -5,7 +5,7 @@ const BADGES = [
   },
   {
     name: "Server boosting since Jun 21, 2022",
-    image: "assets/images/badges/boosts/boost18months.png",
+    image: "assets/images/badges/boosts/boost24months.png",
   },
   // Follow the example if you want to add more badges
   // TODO: Badges integration with the api
